@@ -23,13 +23,13 @@ if (!day) {
         <br>
         Siendo honestos… esto no entraba en tus planes (ni en los nuestros). La vida es impredecible… Un día estás convencida de que acabarás viviendo SOOOOLA y al siguiente tienes una boda marcada en el calendario. El destino es un cachondo.
         <br><br>  
-        <img src="/images/sabado8_cuchillo.JPG" alt="Ejemplo de imagen">
+        <img src="/images/sabado8_cuchillo.jpg" alt="Ejemplo de imagen">
         <br>
         Ahora bien, antes de que nos pongamos sentimentales (tranquila, para eso ya habrá tiempo después), hagamos un pequeño viaje en el tiempo.
         <br><br>
         Piensa en quién eras hace unos años. En todo lo que ha cambiado, en todo lo que has vivido. Desde aquellas tardes eternas haciendo el tonto hasta las conversaciones profundas que parecían resolver el mundo en un solo café. Desde los errores de los que nos reímos hoy hasta los momentos en los que pensábamos que lo teníamos todo bajo control (y claramente no era así).
         <br><br>
-        <img src="/images/sabado8_londres.JPG" alt="Ejemplo de imagen">
+        <img src="/images/sabado8_londres.jpg" alt="Ejemplo de imagen">
         <br>
         Te hemos visto crecer, aprender, evolucionar. Hemos sido testigos de tus fases, de tus crisis existenciales, de tus sueños locos y de tus logros. Y ahora, llegamos a este punto: vas a casarte. No diremos que ha sido un camino recto (porque contigo nunca lo es), pero una cosa es segura: cada paso te ha llevado hasta aquí.
         <br><br>
@@ -79,7 +79,7 @@ if (!day) {
         </strong>
         <br><br>
         <video controls>
-          <source src="/videos/domingo9_1.MP4" type="video/mp4">
+          <source src="/videos/domingo9_1.mp4" type="video/mp4">
           Tu navegador no soporta el video.
         </video>
         <br>
