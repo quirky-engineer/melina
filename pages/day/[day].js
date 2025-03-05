@@ -17,7 +17,7 @@ if (!day) {
     // SÁBADO 8
     "sábado-8": {
         textTitle: "Cuenta atrás activada...",
-        song: "Puedes contar conmigo - La Oreja de Van Gogh",
+        song: "Puedes contar conmigo - La Oreja de Van Gogh...",
         audioFile: "conmigo.mp3",
         text: `
         <br>
