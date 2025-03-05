@@ -75,19 +75,25 @@ if (!day) {
         Así que relájate (pero no mucho) y si ya sabes quiénes somos, haz como que no lo sabes que todo este ha costado mucho curro. 
         <br><br>
         <strong>
-        Melina de camino a un viaje
-        </strong>
-        <br><br>
-        <video controls>
-          <source src="/videos/domingo9_1.mp4" type="video/mp4">
-          Tu navegador no soporta el video.
-        </video>
-        <br>
-        <strong>
-        Melina a su llegada a dicho viaje
+        Cómo Melina llega a un viaje
         </strong>
         <br><br>
         <img src="/images/domingo9_2.jpg" alt="Ejemplo de imagen">
+        <br>
+        <strong>
+        El método de transporte preferido de Melina
+        </strong>
+        <br><br>
+
+<video
+  controls
+  playsinline
+  muted
+  onfocus="this.blur();"
+>
+  <source src="/videos/domingo9_1.mp4" type="video/mp4">
+  Tu navegador no soporta el video.
+</video>
         <br>
         `,
       text2:`
@@ -100,15 +106,14 @@ if (!day) {
       <br>◾ Analgésicos (nos conocemos...)
       <br>◾ Cargador del móvil (aunque para lo que lo usas...)
       <br>◾ Ganas de darlo todo (obligatorio)
-
       `,
       question: {
         text: "Si Melina tuviera que hacer la maleta bajo presión, ¿qué olvidaría con un 99% de probabilidad?",
         options: [
-          { letter: "A", text: "Las bragas.", correct: false },
-          { letter: "B", text: "El DNI.", correct: false },
-          { letter: "C", text: "El bikini.", correct: false },
-          { letter: "D", text: "Todas las anteriores, porque la conocemos.", correct: true },
+          { letter: "A", text: "Las bragas", correct: false },
+          { letter: "B", text: "El bikini", correct: false },
+          { letter: "C", text: "El DNI", correct: false },
+          { letter: "D", text: "Todas las anteriores, porque la conocemos", correct: true },
         ],
       },
     },

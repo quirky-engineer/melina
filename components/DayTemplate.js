@@ -51,7 +51,16 @@ export default function DayTemplate({ title, textTitle, song, audioFile, text, t
   const handleOptionClick = (option) => {
     setSelectedOption(option);
     setIsCorrect(option.correct);
-  };
+  
+    // Scroll to the question section
+    setTimeout(() => {
+      const questionSection = document.getElementById("question-section");
+      if (questionSection) {
+        questionSection.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 50);
+  }; 
+
 
   const togglePlayPause = () => {
     if (audioRef.current) {
@@ -107,28 +116,30 @@ export default function DayTemplate({ title, textTitle, song, audioFile, text, t
               <div className="blog-text" dangerouslySetInnerHTML={{ __html: text || ""}}></div>
             </div>
 
+            {/* Pregunta del Día (Interactive) */}
+            <div id="question-section" className="card">
+  <h2 className="section-title">❓ Pregunta del día</h2>
+  <p className="question-text">{question.text}</p>
+  <ul className="question-options">
+    {question.options.map((option, index) => (
+      <li
+        key={index}
+        className={`option ${selectedOption === option ? (option.correct ? "correct" : "incorrect") : ""}`}
+        onClick={() => handleOptionClick(option)}
+      >
+        <strong>{option.letter}</strong> {option.text}
+      </li>
+    ))}
+  </ul>
+</div>
+
+            
             {/* Pista del Día */}
             <div className="card">
               <h2 className="section-title">💡 Pista del día</h2>
               <div className="blog-text2" dangerouslySetInnerHTML={{ __html: text2 || ""}}></div>
             </div>
 
-            {/* Pregunta del Día (Interactive) */}
-            <div className="card">
-              <h2 className="section-title">❓ Pregunta del día</h2>
-              <p className="question-text">{question.text}</p>  {/* Aquí se aplica la clase */}
-              <ul className="question-options">
-                {question.options.map((option, index) => (
-                  <li
-                    key={index}
-                    className={`option ${selectedOption === option ? (option.correct ? "correct" : "incorrect") : ""}`}
-                    onClick={() => handleOptionClick(option)}
-                  >
-                    <strong>{option.letter}</strong> {option.text}
-                  </li>
-                ))}
-              </ul>
-            </div> 
           </div>
         </div>        
       </div>
@@ -142,6 +153,8 @@ export default function DayTemplate({ title, textTitle, song, audioFile, text, t
           height: auto;
           margin: 0;
           padding: 0;
+          scroll-behavior: smooth;
+          overscroll-behavior: contain;
         }
 
         .background-container {
@@ -286,19 +299,22 @@ export default function DayTemplate({ title, textTitle, song, audioFile, text, t
         video {
           display: block;
           width: 100%;
-          max-width: 400px;
           border-radius: 12px;
           margin: 15px auto;
-          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);       
+          
+  min-height: 200px;  /* Keeps video height fixed */
+  max-width: 100%;    /* Ensures video is responsive */
+  object-fit: cover;  /* Prevents weird stretching */
         }
+    
 
-
-
-
-
-
-
-
+video {
+  min-height: 200px;  /* Keeps video height fixed */
+  max-width: 100%;    /* Ensures video is responsive */
+  object-fit: cover;  /* Prevents weird stretching */
+  display: block;     /* Prevents inline spacing issues */
+}
 
 
         /* Fancy Audio Player */

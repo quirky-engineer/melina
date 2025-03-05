@@ -413,6 +413,10 @@ const openDayPage = (day) => {
           background-color: #e03c50;
         }
 
+        video {
+          pointer-events: none; /* Prevents interaction */
+        }
+
       `}</style>
     </div>
   );
