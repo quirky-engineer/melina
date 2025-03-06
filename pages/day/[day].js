@@ -328,29 +328,87 @@ if (!day) {
 
     // SÁBADO 15
     "sábado-15": {
-        textTitle: "Título",
+        textTitle: "Melinadas",
         song: "Bailando por ahí - Juan Magán",
         audioFile: "bailando.mp3",
         text: `
-        <br>Para cuando leas esto, ya habrá empezado tu despedida. Por motivos logísticos (y kilométricos), nos ha sido imposible estar todas hoy aquí, pero te podemos asegurar que la ilusión con la que hemos preparado todo esto es totalmente compartida por todas.
-        <br><br>Y como sabemos que en ti la vergüenza ajena brilla por su ausencia, a lo largo del día tendrás que enfrentarte a diferentes situaciones (y más cosas) que reafirmen lo dicho anteriormente. 
-        <br><br>Hoy es el día perfecto para rendir homenaje a tus mejores (o peores) momentos: LAS MELINADAS.
-        <br><br>Porque si algo ha quedado claro a lo largo de los años, es que nadie hace el ridículo con más estilo que tú. Nadie ha conseguido perderse con GPS tantas veces, ni ha protagonizado caídas tan cinematográficas, ni ha tenido más momentos de "bueno, en mi cabeza sonaba mejor".
-        <br><br>Así que hoy, prepárate. Porque te toca revivir algunas de tus mayores hazañas.
-        <br><br>Enfréntate a las situaciones más absurdas, di "sí" a lo imposible y, sobre todo, recuerda que no hay Melinada sin una buena anécdota para contar después.
-        <br><br>Nosotras ponemos los planes, tú solo haz lo que mejor sabes hacer: ser tú misma (y darnos material de sobra para reírnos los próximos años).
-        
+        <br>Para cuando leas esto, ya habrá empezado tu despedida.
+        <br>Por motivos logísticos (y kilométricos), nos ha sido imposible estar todas hoy aquí, pero te podemos asegurar que <strong>la ilusión con la que hemos preparado todo esto es totalmente compartida por todas</strong>.
+        <br><br>Y como sabemos que <strong>en ti la vergüenza ajena brilla por su ausencia</strong>, a lo largo del día tendrás que enfrentarte a diferentes situaciones (y más cosas) que reafirmen lo dicho anteriormente. 
+        <br><br>Hoy es el día perfecto para rendir homenaje a tus mejores (o peores) momentos: <strong>LAS MELINADAS</strong>.
+        <br><br>Porque si algo ha quedado claro a lo largo de los años, es que <strong>nadie hace el ridículo con más estilo que tú</strong>. Nadie ha conseguido perderse con GPS tantas veces, ni ha protagonizado caídas tan cinematográficas, ni ha tenido más momentos de "bueno, en mi cabeza sonaba mejor".
+        <br><br>Así que hoy, prepárate. Porque <strong>te toca revivir algunas de tus mayores hazañas</strong>.
+        <br><br>Enfréntate a las situaciones más absurdas, di "sí" a lo imposible y, sobre todo, recuerda que <strong>no hay Melinada sin una buena anécdota para contar después</strong>.
+        <br><br>Nosotras ponemos los planes, tú solo haz lo que mejor sabes hacer: <atrong>ser tú misma</strong> (y darnos material de sobra para reírnos los próximos años).
+        <br><br> ¡Disfruta esta compilación de algunas de tus Melinadas!
+        <br><br><strong>Melina buscando a sus amigas a 2 metros de distancia</strong>
+        <br><br><video
+          controls
+          playsinline
+          muted
+          onfocus="this.blur();"
+        >
+          <source src="/videos/aeropuerto1.mp4" type="video/mp4">
+          Tu navegador no soporta el video.
+        </video>
+        <br><br><strong>Melina  reconduciendo la situación cómo si nada</strong>
+        <br><br><video
+          controls
+          playsinline
+          muted
+          onfocus="this.blur();"
+        >
+          <source src="/videos/aeropuerto2.mp4" type="video/mp4">
+          Tu navegador no soporta el video.
+        </video>
+        <br><br><strong>Melina Noel</strong>
+        <br><br><img src="/images/mama_melina.jpg" alt="Ejemplo de imagen"> 
+        <br><br><strong>El árbol que se chocó contra Melina</strong>
+        <br><br><video
+          controls
+          playsinline
+          muted
+          onfocus="this.blur();"
+        >
+          <source src="/videos/caida_canoa.mp4" type="video/mp4">
+          Tu navegador no soporta el video.
+        </video>
+        <br><br><strong>Melina comiendo cualquier día normal</strong>
+        <br><br><video
+          controls
+          playsinline
+          muted
+          onfocus="this.blur();"
+        >
+          <source src="/videos/comiendo.mp4" type="video/mp4">
+          Tu navegador no soporta el video.
+        </video>
         `,
         text2: `
-        Aquí tienes una pista visual.
+        El camino no termina aquí… Mañana te espera una ciudad que huele a mar, a cachopo y a un final que aún no te imaginas.
         `,        
         question: {
-          text: "Si Melina tuviera que hacer la maleta bajo presión, ¿qué olvidaría con un 99% de probabilidad?",
+          text: "¿Cuál de estas ha sido una de las Melinadas más icónicas de la historia?",
           options: [
-            { letter: "A", text: "...", correct: false },
-            { letter: "B", text: "....", correct: false },
-            { letter: "C", text: "....", correct: false },
-            { letter: "✅", text: "...", correct: true },
+            { letter: "A", text: "Intentar dar direcciones a alguien mientras ella misma estaba perdida", correct: false },
+            { letter: "B", text: "Dar vueltas a una rotonda en Astorga durante literalmente 10 minutos", correct: false },
+            { letter: "C", text: "Tardar 2 horas conduciendo de Astorga a León", correct: false },
+            { letter: "D", text: "Intentar convencer a la madre de Eli de que se había emborrachado a base de aceite", correct: false },
+            { letter: "E", text: "Convencer a todo el mundo de que algo es cierto con seguridad absoluta… y luego descubrir que estaba completamente equivocada", correct: false },
+            { letter: "F", text: "Empotrarse contra un bosque entero mientras estaba en una canoa", correct: false },
+            { letter: "G", text: "Cantar los ''cuatro lobitos'' después de que una de sus amigas le dejase sin dedo a una persona (supuestametne)", correct: false },
+            { letter: "H", text: "Creer que podía sacarse el C1 de inglés en un mes", correct: false },
+            { letter: "I", text: "Tener un novio que según ella tenía el miembro fálico más grande que el de Rasputín y enseñar fotos del mismo disecado", correct: false },
+            { letter: "J", text: "Pensar que la ex novia de su ligue era una mexicana asesina que iba a degollarla por la noche", correct: false },
+            { letter: "K", text: "Intentar convencernos de que una no es mujer completa hasta que un brasileño te empotra en Braga", correct: false },
+            { letter: "L", text: "Que la única vez que ha usado su Grado en Psicología a modo de terapia haya sido para que su ligue le confesara que era gay", correct: false },
+            { letter: "M", text: "Creer que es hipotrofa cuando esta condición no existe", correct: false },
+            { letter: "N", text: "Dar vueltas a una rotonda mientras llama a sus amigas para que alguien vaya a aparcarle el coche", correct: false },
+            { letter: "O", text: "Pensar que en una calle de 3 carriles no entran otro coche y ella y va a morir de forma inmediata", correct: false },
+            { letter: "P", text: "Tener la valentía de jugar a voleibol con sus brazos hipótrofos", correct: false },
+            { letter: "Q", text: "Comerse todo lo que había a su alcance y hacer a su madre ir a buscarla a las 5 de la mañana porque estaba vomitando más que la niña del exorcista", correct: false },
+            { letter: "R", text: "Cuando se presentó a hacer la foto del catálogo del colegio (un momento muy serio) en chándal", correct: false },
+            { letter: "S", text: "Todas las anteriores y muchas más que aún no hemos descubierto", correct: true },
           ],
         },
       },
