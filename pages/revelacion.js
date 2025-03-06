@@ -51,7 +51,7 @@ export default function Revelacion() {
           </p>
           <br></br>
           <p>
-          Ahora es el momento de la verdad: <strong> Mañana VIERNES, prepárate para una gran aventura.</strong> A las 14:00, antes de llegar a tu destino sabrás más cuando el día se desbloqueé.
+          Ahora es el momento de la verdad: <strong> Mañana VIERNES, prepárate para una gran aventura.</strong> A las 14:00, antes de llegar a tu destino sabrás más cuando el día se desbloquee.
           </p>
           <br></br>
           <p>

@@ -105,6 +105,8 @@ if (!day) {
       <br>◾ Analgésicos (nos conocemos...)
       <br>◾ Cargador del móvil (aunque para lo que lo usas...)
       <br>◾ Ganas de darlo todo (obligatorio)
+      <br><br> <strong>RECOMENDAMOS NO TARDAR EN EMPEZAR A HACER LA MALETA, NUNCA SE SABE SI LA VAS A NECESITAR MAÑANA...</strong>
+      <br><br> <strong>EN SERIO, ¡HAZ LA MALETA!</strong>
       `,
       question: {
         text: "Si Melina tuviera que hacer la maleta bajo presión, ¿qué olvidaría con un 99% de probabilidad?",
@@ -207,16 +209,14 @@ if (!day) {
 
     // MIÉRCOLES 12
     "miércoles-12": {
-        textTitle: "El camino hasta aquí",
-        song: "P'aquí p'allá - La Fuga",
-        audioFile: "fuga.mp3",
+        textTitle: "La fe mueve montañas... y despedidas",
+        song: "Padre Nuestro, en el mar he oido hoy - Grupo Nueva Vida",
+        audioFile: "padre.mp3",
         text: `
-        <br>Si alguien nos hubiera dicho hace 20 años que algún día estaríamos aquí, probablemente nos habríamos reído en su cara. Porque si algo hemos aprendido con los años es que <strong>los planes nunca salen como los imaginamos</strong>, y la vida tiene su propia forma de sorprendernos (y de darnos la vuelta como un calcetín).
-        <br><br>Desde los recreos eternos hasta los primeros viajes, pasando por exámenes, fiestas, dramas absurdos y decisiones impulsivas, hemos ido construyendo nuestra historia paso a paso, como si fuera una versión extendida del Camino de Santiago. <strong>¡Y qué camino, amiga!</strong>
-        <br><br>Porque si algo ha quedado claro en todos estos años es que <strong>tú nunca has tenido prisa</strong>. No te han importado las pausas, las paradas estratégicas, los desvíos inesperados; ni siquiera los momentos en los que te ha tocado dar un paso atrás antes de seguir adelante. <strong>Cada parte del recorrido ha valido la pena</strong>.
-        <br><br>Y ahora, aquí estás, llegando a uno de los grandes hitos de tu vida. No importa si la meta era esta desde el principio o si fue un giro inesperado en el camino, porque, al final, <strong>todo lo que has vivido te ha traído hasta aquí</strong>.
-        <br><br>Así que disfruta este momento, respira hondo y sigue caminando. No hace falta correr, <strong>la meta te está esperando</strong>.
-        <br><br><img src="/images/miercoles12_1.jpg" alt="Ejemplo de imagen"> 
+        <br>Hay lugares que marcan una vida. <strong>Algunos nos enseñan a ser mejores personas…</strong> y otros nos enseñan que hasta las que parecen más santas tienen su lado fiestero. Y tú aprendiste ambas cosas.
+        <br><br> Porque si algo ha quedado claro con los años es que la fe puede mover montañas… pero también puede mover a un grupo de amigas aburridas hacia situaciones que hoy <strong>nos hacen reír</strong> (y que en su momento nos hicieron sudar frío).
+        <br><br>Desde aquellas clases donde intentabas no reírte a carcajadas de la sopa primordial en plena reflexión espiritual, hasta los enamoramientos que desafiaban cualquier mandamiento… como <strong>aquel crush descomunal</strong> que tuviste con cierto profesora de nombre <em>of the church</em>.
+        <br><br>Tú no intentabas disimular y cada vez que entraba en clase, te ponías más atenta que en cualquier examen. Podía estar explicando lo más aburrido del mundo pero ahí estabas tú, con una concentración digna de alguien <strong>descubriendo el sentido de la vida en esos brazos que estallaban camisetas</strong>. Si los curas hablaban de vocación, la tuya claramente era asistir a sus clases.
         `,
         text2: `
         <br>Aquí Melina descargando el retorno venoso para ayudar con su hipotrofia...
@@ -229,35 +229,7 @@ if (!day) {
           <source src="/videos/miercoles12_2.mp4" type="video/mp4">
           Tu navegador no soporta el video.
         </video>
-        `,        
-        question: {
-          text: "Si la vida de Melina fuera realmente el Camino de Santiago, ¿qué cosa representaría su mayor obstáculo en la ruta?",
-          options: [
-            { letter: "A", text: "El peso de su propia maleta, porque lleva cosas inútiles ''por si acaso''", correct: false },
-            { letter: "B", text: "La pereza de empezar cada mañana", correct: false },
-            { letter: "C", text: "Las ganas de parar cada 20 minutos a hacer fotos", correct: false },
-            { letter: "D", text: "El hecho de que se perdería con el GPS activado", correct: false },
-            { letter: "E", text: "Que los chicos ya estén en Santiago para cuando ella llegue", correct: true },
-          ],
-        },
-      },
-
-    // JUEVES 13
-    "jueves-13": {
-        textTitle: "La fe mueve montañas... y despedidas",
-        song: "Padre Nuestro, en el mar he oido hoy - Grupo Nueva Vida",
-        audioFile: "padre.mp3",
-        text: `
-        <br>Hay lugares que marcan una vida. <strong>Algunos nos enseñan a ser mejores personas…</strong> y otros nos enseñan que hasta las que parecen más santas tienen su lado fiestero. Y tú aprendiste ambas cosas.
-        <br><br> Porque si algo ha quedado claro con los años es que la fe puede mover montañas… pero también puede mover a un grupo de amigas aburridas hacia situaciones que hoy <strong>nos hacen reír</strong> (y que en su momento nos hicieron sudar frío).
-        <br><br>Desde aquellas clases donde intentabas no reírte a carcajadas de la sopa primordial en plena reflexión espiritual, hasta los enamoramientos que desafiaban cualquier mandamiento… como <strong>aquel crush descomunal</strong> que tuviste con cierto profesora de nombre <em>of the church</em>.
-        <br><br>Tú no intentabas disimular y cada vez que entraba en clase, te ponías más atenta que en cualquier examen. Podía estar explicando lo más aburrido del mundo pero ahí estabas tú, con una concentración digna de alguien <strong>descubriendo el sentido de la vida en esos brazos que estallaban camisetas</strong>. Si los curas hablaban de vocación, la tuya claramente era asistir a sus clases.
-        `,
-        text2: `
-        <br>¿Quién crees que te ha hecho sufrir toda la semana?
-        <br><br><p><a href="/revelacion" class="reveal-link"><em><strong>Haz click AQUÍ para descubrirlo</strong></em></a></p>
-        <br>(Aunque confiamos en que ya lo sepas)
-        `,        
+        `,          
         question: {
           text: "Durante la ilustre educación de Melina en los Jesuitas, aprendió muchas cosas… pero ¿cuál de estas fue la lección más importante?",
           options: [
@@ -269,18 +241,43 @@ if (!day) {
         },
       },
 
+    // JUEVES 13
+    "jueves-13": {
+      textTitle: "El camino hasta aquí",
+      song: "P'aquí p'allá - La Fuga",
+      audioFile: "fuga.mp3",
+      text: `
+      <br>Si alguien nos hubiera dicho hace 20 años que algún día estaríamos aquí, probablemente nos habríamos reído en su cara. Porque si algo hemos aprendido con los años es que <strong>los planes nunca salen como los imaginamos</strong>, y la vida tiene su propia forma de sorprendernos (y de darnos la vuelta como un calcetín).
+      <br><br>Desde los recreos eternos hasta los primeros viajes, pasando por exámenes, fiestas, dramas absurdos y decisiones impulsivas, hemos ido construyendo nuestra historia paso a paso, como si fuera una versión extendida del Camino de Santiago. <strong>¡Y qué camino, amiga!</strong>
+      <br><br>Porque si algo ha quedado claro en todos estos años es que <strong>tú nunca has tenido prisa</strong>. No te han importado las pausas, las paradas estratégicas, los desvíos inesperados; ni siquiera los momentos en los que te ha tocado dar un paso atrás antes de seguir adelante. <strong>Cada parte del recorrido ha valido la pena</strong>.
+      <br><br>Y ahora, aquí estás, llegando a uno de los grandes hitos de tu vida. No importa si la meta era esta desde el principio o si fue un giro inesperado en el camino, porque, al final, <strong>todo lo que has vivido te ha traído hasta aquí</strong>.
+      <br><br>Así que disfruta este momento, respira hondo y sigue caminando. No hace falta correr, <strong>la meta te está esperando</strong>.
+      <br><br><img src="/images/miercoles12_1.jpg" alt="Ejemplo de imagen"> 
+      `,
+      text2: `
+      <br>¿Quién crees que te ha hecho sufrir toda la semana?
+      <br><br><p><a href="/revelacion" class="reveal-link"><em><strong>Haz click AQUÍ para descubrirlo</strong></em></a></p>
+      <br>(Aunque confiamos en que ya lo sepas)
+      `,
+      question: {
+        text: "Si la vida de Melina fuera realmente el Camino de Santiago, ¿qué cosa representaría su mayor obstáculo en la ruta?",
+        options: [
+          { letter: "A", text: "El peso de su propia maleta, porque lleva cosas inútiles ''por si acaso''", correct: false },
+          { letter: "B", text: "La pereza de empezar cada mañana", correct: false },
+          { letter: "C", text: "Las ganas de parar cada 20 minutos a hacer fotos", correct: false },
+          { letter: "D", text: "El hecho de que se perdería con el GPS activado", correct: false },
+          { letter: "E", text: "Que los chicos ya estén en Santiago para cuando ella llegue", correct: true },
+        ],
+      },
+    },
 
     // VIERNES 14
     "viernes-14": {
         textTitle: "Título",
-        song: "Canción - Intérprete",
-        spotifyLink: "https://open.spotify.com/track/4z2EeFUp5Lhai9qhHtA6IF",
+        song: "",
+        audioFile: "padre.mp3",
         text: `
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
-
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
-
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
+        hello
         `,
         text2: `
         Aquí tienes una pista visual.
@@ -299,14 +296,10 @@ if (!day) {
     // SÁBADO 15
     "sábado-15": {
         textTitle: "Título",
-        song: "Canción - Intérprete",
-        spotifyLink: "https://open.spotify.com/track/4z2EeFUp5Lhai9qhHtA6IF",
+        song: "",
+        audioFile: "padre.mp3",
         text: `
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
-
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
-
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
+        hello
         `,
         text2: `
         Aquí tienes una pista visual.
@@ -325,14 +318,10 @@ if (!day) {
     // DOMINGO 16
     "domingo-16": {
         textTitle: "Título",
-        song: "Canción - Intérprete",
-        spotifyLink: "https://open.spotify.com/track/4z2EeFUp5Lhai9qhHtA6IF",
+        song: "",
+        audioFile: "padre.mp3",
         text: `
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
-
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
-
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
+        hello     
         `,
         text2: `
         Aquí tienes una pista visual.
