@@ -284,10 +284,36 @@ if (!day) {
         <br><br>Dicen que la sidra ayuda a ver la vida con más claridad… pero en tu caso, ni con GPS. Si alguna vez hubo una brújula que apuntaba al caos, sin duda la llevas tú. Y es precisamente por eso que este fin de semana promete ser inolvidable.
         <br><br> A veces las premoniciones (o medias premoniciones) se hacen realidad, y sino mira esta carta que escribimos hace ya 12 años...
         <br><br><img src="/images/contrato.jpg" alt="Ejemplo de imagen"> 
-        <br><br> QUÉ MÁS PONER???????
+        <br> Lo que todavía no entendemos es cómo ha pasado esto. Nosotras estuvimos allí, en Polonia, cuando soltaste la bomba.
+        <br><br>Nos miramos entre nosotras, levantamos una ceja y seguimos comiendo la cena, porque vamos a ser sinceras: <strong>NUNCA te hemos tomado en serio</strong>.
+        <br><br><img src="/images/polonia.jpg" alt="Ejemplo de imagen"> 
+        <br><br><video
+          controls
+          playsinline
+          muted
+          onfocus="this.blur();"
+        >
+          <source src="/videos/mecaso.mp4" type="video/mp4">
+          Tu navegador no soporta el video.
+        </video>
+        <br>Y, sin embargo, aquí estamos. <strong>Resulta que esta vez ibas en serio</strong>.
+        <br><br>Así que, después de años de teorías imposibles sobre tu futuro, nos toca tragarnos nuestras palabras y levantar la copa.
+        <br><br>Porque sí, lo hemos dudado, pero ahora no tenemos ninguna duda: <strong>estás a punto de vivir algo increíble</strong>.
         `,
         text2: `
-        🧠 Pista del día: No busques más, el secreto está en el escanciado. 🇪🇸🍏
+        <br>▪️ Algunas noches están hechas para salir, pero las mejores son aquellas donde simplemente te sientas, comes, brindas y disfrutas.
+        <br><br>▪️ Dicen que hay momentos en los que solo queda dejarse llevar por la corriente… o por alguien que conoce bien el camino. 
+        <br><br>▪️ La tierra siempre da lo mejor de sí… y hay lugares donde lo auténtico se saborea como nunca.
+        <br><br>▪️ Hay juegos donde se gana y otros donde simplemente te ríes hasta que duele la barriga. Prepárate para lo inesperado.
+        <br><br><video
+          controls
+          playsinline
+          muted
+          onfocus="this.blur();"
+        >
+          <source src="/videos/sidra.mp4" type="video/mp4">
+          Tu navegador no soporta el video.
+        </video>
         `,        
         question: {
           text: "Si Melina fuera una sidra, ¿qué tipo sería?",
@@ -295,7 +321,7 @@ if (!day) {
             { letter: "A", text: "Una sidra natural: auténtica y con carácter, pero con riesgo de derrame si no se maneja bien", correct: false },
             { letter: "B", text: "Una sidra espumosa: siempre lista para la fiesta, pero peligrosa en las aperturas", correct: false },
             { letter: "C", text: "Una sidra dulce: la opción segura que no falla, pero que engaña con lo suave que entra", correct: false },
-            { letter: "✅", text: "Una sidra asturiana bien escanciada… aunque sabemos que acabaría más en el suelo que en el vaso", correct: true },
+            { letter: "D", text: "Una sidra asturiana bien escanciada… aunque sabemos que acabaría más en el suelo que en el vaso", correct: true },
           ],
         },
       },
