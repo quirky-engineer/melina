@@ -21,21 +21,21 @@ if (!day) {
         audioFile: "conmigo.mp3",
         text: `
         <br>
-        Siendo honestos… esto no entraba en tus planes (ni en los nuestros). La vida es impredecible… Un día estás convencida de que acabarás viviendo SOOOOLA y al siguiente tienes una boda marcada en el calendario. El destino es un cachondo.
+        Siendo honestos… esto no entraba en tus planes (ni en los nuestros). La vida es impredecible… Un día estás convencida de que acabarás viviendo SOOOOLA y al siguiente tienes una boda marcada en el calendario. <strong>El destino es un cachondo</strong>.
         <br><br>  
         <img src="/images/sabado8_cuchillo.jpg" alt="Ejemplo de imagen">
         <br>
-        Ahora bien, antes de que nos pongamos sentimentales (tranquila, para eso ya habrá tiempo después), hagamos un pequeño viaje en el tiempo.
+        Ahora bien, antes de que nos pongamos sentimentales (tranquila, para eso ya habrá tiempo después), hagamos un pequeño <strong>viaje en el tiempo</strong>.
         <br><br>
         Piensa en quién eras hace unos años. En todo lo que ha cambiado, en todo lo que has vivido. Desde aquellas tardes eternas haciendo el tonto hasta las conversaciones profundas que parecían resolver el mundo en un solo café. Desde los errores de los que nos reímos hoy hasta los momentos en los que pensábamos que lo teníamos todo bajo control (y claramente no era así).
         <br><br>
         <img src="/images/sabado8_londres.jpg" alt="Ejemplo de imagen">
         <br>
-        Te hemos visto crecer, aprender, evolucionar. Hemos sido testigos de tus fases, de tus crisis existenciales, de tus sueños locos y de tus logros. Y ahora, llegamos a este punto: vas a casarte. No diremos que ha sido un camino recto (porque contigo nunca lo es), pero una cosa es segura: cada paso te ha llevado hasta aquí.
+        <strong>Te hemos visto crecer, aprender, evolucionar.</strong> Hemos sido testigos de tus fases, de tus crisis existenciales, de tus sueños locos y de tus logros. Y ahora, llegamos a este punto: <strong>vas a casarte</strong>. No diremos que ha sido un camino recto (porque contigo nunca lo es), pero una cosa es segura: cada paso te ha llevado hasta aquí.
         <br><br>
         <img src="/images/sabado8_morado.jpg" alt="Ejemplo de imagen">
         <br>
-        Así que, antes de que la despedida empiece y te sumerjas en esta cuenta atrás, queremos que te tomes un momento. Mírate. Reconócete. Y sonríe. Porque lo mejor aún está por venir.
+        Así que, antes de que la despedida empiece y te sumerjas en esta cuenta atrás, queremos que te tomes un momento. Mírate. Reconócete. Y sonríe. Porque <strong>lo mejor aún está por venir</strong>.
         `,     
         text2: `
         <br>Hace más de 15 años, Melina ya acostumbraba a no tener batería NUNCA. Este era su teléfono, que usaba más de espejo que otra cosa...
@@ -64,7 +64,7 @@ if (!day) {
         <br>
         Bueno, ya hemos asumido que la boda es real y que no te casas con un gato. Un gran avance. Pero antes de eso, hay algo importante…
         <br><br>
-        Te espera un <em>VIAJE</em>. Uno de esos que recordarás para siempre (y no solo porque tu dignidad va a quedar comprometida).
+        <strong>Te espera un <em>VIAJE</em></strong>. Uno de esos que recordarás para siempre (y no solo porque tu dignidad va a quedar comprometida).
         Así que antes de que llegue el gran momento, queremos asegurarnos de que no te presentes con lo puesto y sin bragas.
         Porque sí, te conocemos. Sabemos que eres capaz de aparecer con una maleta donde has metido tres pintalabios pero ni un solo calcetín. O que te acordarás del cargador pero no del DNI. Y eso, no puede pasar.
         <br><br>
@@ -72,7 +72,7 @@ if (!day) {
         <br>Vamos a darte una pista: nos conoces desde antes de que supieras maquillarte decentemente, hemos sobrevivido juntas a exámenes, crisis existenciales y alguna que otra metedura de pata histórica.
         <br>Compartimos recreos, confesiones y ataques de risa en clase que casi nos cuestan una expulsión. 
         <br><br>
-        Así que relájate (pero no mucho) y si ya sabes quiénes somos, haz como que no lo sabes que todo este ha costado mucho curro. 
+        Así que relájate (pero no mucho) y si ya sabes quiénes somos, haz como que no lo sabes, porque todo esto ha costado mucho curro. 
         <br><br>
         <strong>
         Cómo Melina llega a un viaje
@@ -125,13 +125,13 @@ if (!day) {
         song: "We're all in this together - High School Musical",
         audioFile: "school.mp3",
         text: `
-          <br>Apagábamos las luces y automáticamente nos convertíamos en un grupo de histéricas. Un  montón de adolescentes gritando en la oscuridad como si estuviéramos en una peli de terror.
+          <br><strong>Apagábamos las luces</strong> y automáticamente nos convertíamos en un grupo de histéricas. Un  montón de adolescentes gritando en la oscuridad como si estuviéramos en una peli de terror.
           <br><br>Pero lo mejor no era el miedo, sino la cantidad de veces que alguien acababa en el suelo porque no veías un carajo y te tropezabas con todo.
           <br><br><img src="/images/lunes10_2.jpg" alt="Ejemplo de imagen">
           <br><br><img src="/images/lunes10_3.jpg" alt="Ejemplo de imagen">
-          <br><br>Para sorpresa de nadie, en medio de ese caos, no había solidaridad. Cada vez que alguien gritaba, siempre había otra persona gritando más fuerte y nadie ayudaba a nadie.
+          <br>Para sorpresa de nadie, en medio de ese caos, no había solidaridad. Cada vez que alguien gritaba, siempre había otra persona gritando más fuerte y nadie ayudaba a nadie.
           <br><br>No importaba si te habías dado con un mueble, si habías terminado en el suelo o si HABÍAS ENCONTRADO UN RATÓN MUERTO, porque el pánico colectivo tenía prioridad.
-          <br><br>Conociéndote, seguro que en esos momentos pensabas: “‘voy a morir sola y así es como me encontrarán”  Pero bueno, al final alguien te encontró…
+          <br><br>Conociéndote, seguro que en esos momentos pensabas: “‘voy a morir sola y así es como me encontrarán”  Pero bueno, <strong>al final alguien te encontró…</strong>
           <br><br><img src="/images/lunes10_1.jpg" alt="Ejemplo de imagen">     
           `,
         text2: `
@@ -156,14 +156,14 @@ if (!day) {
         song: "Infinity - Guru Josh Project",
         audioFile: "infinity.mp3",
         text: `
-        <br>Todos tenemos un lugar donde brillamos, y el tuyo fue uno donde la purpurina, los tacones y el reggaetón eran la combinación perfecta para bailes, confesiones y decisiones cuestionables. Algunas noches fueron para recordar… y otras para olvidar (o mejor dicho, para que te las cuenten al día siguiente mientras intentas reconstruir los hechos).
+        <br><strong>Todos tenemos un lugar donde brillamos</strong>, y el tuyo fue uno donde la purpurina, los tacones y el reggaetón eran la combinación perfecta para bailes, confesiones y decisiones cuestionables. Algunas noches fueron para recordar… y otras para olvidar (o mejor dicho, para que te las cuenten al día siguiente mientras intentas reconstruir los hechos).
         <br><br>Porque si algo estaba garantizado en aquellas noches, era la intensidad. Desde las largas horas frente al espejo decidiendo qué ponerte hasta el clásico “una más y nos vamos” que <strong>nunca</strong> se cumplía. La pista de baile se convertía en territorio de guerra: podías entrar con dignidad, pero salir sin voz, sin móvil o, en algunos casos, sin equilibrio.
         <br><br>Y entre tus <strong>TOP 3 momentos legendarios</strong>, sin duda, está <strong>aquella fatídica noche en la que te caíste y te partiste el labio</strong>. En lugar de preocuparte por la sangre, solamente preguntabas: "¿Se me nota?"
         <br><br>Spoiler: <strong>SE TE NOTABA.</strong>
         <br><br><img src="/images/martes11_1.jpg" alt="Ejemplo de imagen">     
         <br><br><img src="/images/martes11_2.jpg" alt="Ejemplo de imagen"> 
-        <br>Pero la salud era secundaria; lo fundamental era recomponerse y asegurarse de que nada (ni siquiera una herida visible) arruinara la noche. Porque al final, lo único peor que caerse era perderse la mejor parte de la fiesta.
-        <br><br>Y esa es la actitud que nos ha traído hasta aquí: reponerse, reírse y seguir bailando. Porque si hay algo que sabemos, es que todavía queda mucha fiesta por delante...
+        <br>Pero la salud era secundaria; lo fundamental era recomponerse y asegurarse de que nada (ni siquiera una herida visible) arruinara la noche. Porque al final, <strong>lo único peor que caerse era perderse la mejor parte de la fiesta</strong>.
+        <br><br><strong>Y esa es la actitud que nos ha traído hasta aquí: reponerse, reírse y seguir bailando.</strong> Porque si hay algo que sabemos, es que todavía queda mucha fiesta por delante...
         <br><br><img src="/images/martes11_3.jpg" alt="Ejemplo de imagen"> 
         <br><br><video
           controls
