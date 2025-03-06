@@ -43,13 +43,9 @@ export default function Instructions() {
       {/* Instruction Content */}
       <div className="content-wrapper">
         <div className="card">
-
           <h2>INSTRUCCIONES</h2>
           <p>
-          ¡Bienvenida a la cuenta atrás oficial para tu despedida! 
-          </p>
-          <p>
-          Durante los próximos días, recibirás una serie de <strong>pruebas, recuerdos, indirectas y (posiblemente) humillaciones</strong> con un solo propósito: prepararte mentalmente para lo que se viene.  
+          ¡Bienvenida, Melina! Durante los próximos días, recibirás una serie de <strong>pruebas, recuerdos, indirectas y (posiblemente) humillaciones</strong> con un solo propósito: prepararte mentalmente para lo que se viene.  
           </p>
           <p>
           <br></br>
@@ -57,7 +53,7 @@ export default function Instructions() {
           </p>
           <br></br>
           <p>
-          Cada día tendrás: un mensaje IMPORTANTE que necesitas leer antes de seguir, una pista que te acercará al desenlace final y una pregunta que pondrá a prueba tu memoria y tu dignidad.
+          Cada día: <strong>dale al play</strong>, escucha la canción del día y disfrútala mientras lees un <strong>mensaje</strong>, una <strong>pista</strong> que te acercará al desenlace final y una <strong>pregunta</strong> que pondrá a prueba tu memoria y tu dignidad.
           </p>
         </div>
       </div>
