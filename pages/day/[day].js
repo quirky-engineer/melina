@@ -415,14 +415,46 @@ if (!day) {
 
     // DOMINGO 16
     "domingo-16": {
-        textTitle: "Título",
+        textTitle: "El fin de una era",
         song: "Ya nada volverá a ser cómo antes - El Canta del Loco",
         audioFile: "antes.mp3",
         text: `
-        hello     
-        `,
+        <br>Y así, <strong>hemos llegado al final</strong>. El fin de una era.
+        <br><br>No vamos a ponernos demasiado dramáticas (o sí), pero esta despedida de soltera no ha sido solo un viaje, una fiesta o una excusa para verte haciendo el ridículo en nombre de la diversión. <strong>Ha sido un cierre de capítulo</strong>.
+        <br><br>Nos conoces. Sabes que no somos de ponernos cursis (bueno, algunas más que otras), pero hoy todo vale. Porque después de tantos años, tantas historias, tantas versiones de ti misma que hemos visto evolucionar, llegamos a este momento: <strong>estás a punto de casarte</strong>.
+        <br><br>Nunca pensamos que llegaría este día. No porque no creyéramos en ti (bueno, un poco sí), sino porque nos parecía imposible imaginarte en un vestido blanco sin que algo absurdamente caótico sucediera a tu alrededor. Pero ahora, miramos atrás y nos damos cuenta de que, aunque muchas cosas han cambiado, lo importante sigue intacto.
+        <br><br><img src="/images/london1.jpg" alt="Ejemplo de imagen">
+        <br><br><img src="/images/cumple.jpg" alt="Ejemplo de imagen"> 
+        <br><br><img src="/images/pacha.jpg" alt="Ejemplo de imagen"> 
+        <br><br><img src="/images/rio_bebiendo.jpg" alt="Ejemplo de imagen"> 
+        <br><br><img src="/images/london2.jpg" alt="Ejemplo de imagen"> 
+        <br><br><video
+          controls
+          playsinline
+          muted
+          onfocus="this.blur();"
+        >
+          <source src="/videos/hongos.mp4" type="video/mp4">
+          Tu navegador no soporta el video.
+        </video>
+        <br><br><video
+          controls
+          playsinline
+          muted
+          onfocus="this.blur();"
+        >
+          <source src="/videos/brindis.mp4" type="video/mp4">
+          Tu navegador no soporta el video.
+        </video>
+        <br>Así que aquí va <strong>nuestro último brindis: por lo que fuimos, por lo que somos y por lo que vendrá</strong>. Porque aunque <strong>ya nada volverá a ser como antes</strong>, sabemos que todavía quedan muchas Melinadas por escribir.
+        <br><br>Nosotras, desde luego, no nos lo vamos a perder. 💗
+`,
         text2: `
-       <br><br><video
+        <br>Hoy ya no nos hacen falta más pistas, porque esto se acaba aquí.
+        <br>Esta cuenta atrás ha sido <strong>un viaje lleno de recuerdos, risas y alguna lágrima</strong>.
+        <br><br>Hoy no hay acertijos, no hay secretos por descubrir. <strong>Solo nos queda desearte lo mejor en esta nueva etapa con Héctor</strong>, porque si alguien merece una historia épica (con sus dosis de caos, por supuesto), esa eres tú.
+        <br><br>Así que aquí termina el juego… pero <strong>lo bueno, lo de verdad, empieza ahora</strong>. 💗✨
+        <br><br><video
           controls
           playsinline
           muted
@@ -431,14 +463,15 @@ if (!day) {
           <source src="/videos/melina_novia.mp4" type="video/mp4">
           Tu navegador no soporta el video.
         </video>
+        <br><br><img src="/images/hector.jpg" alt="Ejemplo de imagen"> 
         `,        
         question: {
-          text: "Si Melina tuviera que hacer la maleta bajo presión, ¿qué olvidaría con un 99% de probabilidad?",
+          text: "Después de esta despedida, ¿qué es lo más probable que pase con Melina?",
           options: [
-            { letter: "A", text: "...", correct: false },
-            { letter: "B", text: "....", correct: false },
-            { letter: "C", text: "....", correct: false },
-            { letter: "✅", text: "...", correct: true },
+            { letter: "A", text: "Se pierde de camino a su propia boda, a pesar de que la iglesia está en Google Maps", correct: false },
+            { letter: "B", text: "Llega al altar con una anécdota digna de ser contada en su discurso de bodas", correct: false },
+            { letter: "C", text: "Se emociona tanto que llora… y arruina el maquillaje en los primeros cinco minutos", correct: false },
+            { letter: "D", text: "Todas las anteriores, porque es Melina y nunca defrauda", correct: true },
           ],
         },
       },
