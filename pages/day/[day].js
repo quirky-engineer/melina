@@ -185,14 +185,14 @@ if (!day) {
         </video>
         `,
         text2: `
-        <br>¿Reconoces este momento?
+        <br>¿Reconoces a este persona?
         <br><br><video
           controls
           playsinline
           muted
           onfocus="this.blur();"
         >
-          <source src="/videos/martes11_6.mp4" type="video/mp4">
+          <source src="/videos/negro.mp4" type="video/mp4">
           Tu navegador no soporta el video.
         </video>
         `,
@@ -215,7 +215,7 @@ if (!day) {
         text: `
         <br>Hay lugares que marcan una vida. <strong>Algunos nos enseñan a ser mejores personas…</strong> y otros nos enseñan que hasta las que parecen más santas tienen su lado fiestero. Y tú aprendiste ambas cosas.
         <br><br> Porque si algo ha quedado claro con los años es que la fe puede mover montañas… pero también puede mover a un grupo de amigas aburridas hacia situaciones que hoy <strong>nos hacen reír</strong> (y que en su momento nos hicieron sudar frío).
-        <br><br>Desde aquellas clases donde intentabas no reírte a carcajadas de la sopa primordial en plena reflexión espiritual, hasta los enamoramientos que desafiaban cualquier mandamiento… como <strong>aquel crush descomunal</strong> que tuviste con cierto profesor de nombre <em>of the church</em>.
+        <br><br>Desde aquellas clases donde intentabas no reírte a carcajadas de la sopa con tropezones en plena reflexión espiritual, hasta los enamoramientos que desafiaban cualquier mandamiento… como <strong>aquel crush descomunal</strong> que tuviste con cierto profesor de apellido <em>of the church</em>.
         <br><br>Tú no intentabas disimular y cada vez que entraba en clase, te ponías más atenta que en cualquier examen. Podía estar explicando lo más aburrido del mundo pero ahí estabas tú, con una concentración digna de alguien <strong>descubriendo el sentido de la vida en esos brazos que estallaban camisetas</strong>. Si los curas hablaban de vocación, la tuya claramente era asistir a sus clases.
         `,
         text2: `
@@ -301,7 +301,8 @@ if (!day) {
         <br><br>Porque sí, lo hemos dudado, pero ahora no tenemos ninguna duda: <strong>estás a punto de vivir algo increíble</strong>.
         `,
         text2: `
-        <br>▪️ Algunas noches están hechas para salir, pero las mejores son aquellas donde simplemente te sientas, comes, brindas y disfrutas.
+        <br>▪️Te espera una ciudad que huele a mar, a cachopo y a un final que aún no te imaginas.
+        <br><br>▪️ Algunas noches están hechas para salir, pero las mejores son aquellas donde simplemente te sientas, comes, brindas y disfrutas.
         <br><br>▪️ Dicen que hay momentos en los que solo queda dejarse llevar por la corriente… o por alguien que conoce bien el camino. 
         <br><br>▪️ La tierra siempre da lo mejor de sí… y hay lugares donde lo auténtico se saborea como nunca.
         <br><br>▪️ Hay juegos donde se gana y otros donde simplemente te ríes hasta que duele la barriga. Prepárate para lo inesperado.
@@ -385,7 +386,8 @@ if (!day) {
         </video>
         `,
         text2: `
-        El camino no termina aquí… Mañana te espera una ciudad que huele a mar, a cachopo y a un final que aún no te imaginas.
+        <br>Queremos asegurarnos de que empieces tu gran día como te mereces.
+        <br><br>Mañana tendrás una última sorpresa.
         `,        
         question: {
           text: "¿Cuál de estas ha sido una de las Melinadas más icónicas de la historia?",
@@ -445,6 +447,15 @@ if (!day) {
           onfocus="this.blur();"
         >
           <source src="/videos/brindis.mp4" type="video/mp4">
+          Tu navegador no soporta el video.
+        </video>
+        <br><br><video
+          controls
+          playsinline
+          muted
+          onfocus="this.blur();"
+        >
+          <source src="/videos/martes11_6.mp4" type="video/mp4">
           Tu navegador no soporta el video.
         </video>
         <br>Así que aquí va <strong>nuestro último brindis: por lo que fuimos, por lo que somos y por lo que vendrá</strong>. Porque aunque <strong>ya nada volverá a ser como antes</strong>, sabemos que todavía quedan muchas Melinadas por escribir.
