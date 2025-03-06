@@ -332,7 +332,14 @@ if (!day) {
         song: "Bailando por ahí - Juan Magán",
         audioFile: "bailando.mp3",
         text: `
-        hello
+        <br>Para cuando leas esto, ya habrá empezado tu despedida. Por motivos logísticos (y kilométricos), nos ha sido imposible estar todas hoy aquí, pero te podemos asegurar que la ilusión con la que hemos preparado todo esto es totalmente compartida por todas.
+        <br><br>Y como sabemos que en ti la vergüenza ajena brilla por su ausencia, a lo largo del día tendrás que enfrentarte a diferentes situaciones (y más cosas) que reafirmen lo dicho anteriormente. 
+        <br><br>Hoy es el día perfecto para rendir homenaje a tus mejores (o peores) momentos: LAS MELINADAS.
+        <br><br>Porque si algo ha quedado claro a lo largo de los años, es que nadie hace el ridículo con más estilo que tú. Nadie ha conseguido perderse con GPS tantas veces, ni ha protagonizado caídas tan cinematográficas, ni ha tenido más momentos de "bueno, en mi cabeza sonaba mejor".
+        <br><br>Así que hoy, prepárate. Porque te toca revivir algunas de tus mayores hazañas.
+        <br><br>Enfréntate a las situaciones más absurdas, di "sí" a lo imposible y, sobre todo, recuerda que no hay Melinada sin una buena anécdota para contar después.
+        <br><br>Nosotras ponemos los planes, tú solo haz lo que mejor sabes hacer: ser tú misma (y darnos material de sobra para reírnos los próximos años).
+        
         `,
         text2: `
         Aquí tienes una pista visual.
