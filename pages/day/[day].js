@@ -351,7 +351,7 @@ if (!day) {
           <source src="/videos/aeropuerto1.mp4" type="video/mp4">
           Tu navegador no soporta el video.
         </video>
-        <br><br><strong>Melina  reconduciendo la situación cómo si nada</strong>
+        <br><br><strong>Melina  reconduciendo la situación como si nada</strong>
         <br><br><video
           controls
           playsinline
@@ -396,7 +396,7 @@ if (!day) {
             { letter: "D", text: "Intentar convencer a la madre de Eli de que se había emborrachado a base de aceite", correct: false },
             { letter: "E", text: "Convencer a todo el mundo de que algo es cierto con seguridad absoluta… y luego descubrir que estaba completamente equivocada", correct: false },
             { letter: "F", text: "Empotrarse contra un bosque entero mientras estaba en una canoa", correct: false },
-            { letter: "G", text: "Cantar los ''cuatro lobitos'' después de que una de sus amigas le dejase sin dedo a una persona (supuestametne)", correct: false },
+            { letter: "G", text: "Cantar los ''cuatro lobitos'' después de que una de sus amigas le dejase sin dedo a una persona (presuntamente)", correct: false },
             { letter: "H", text: "Creer que podía sacarse el C1 de inglés en un mes", correct: false },
             { letter: "I", text: "Tener un novio que según ella tenía el miembro fálico más grande que el de Rasputín y enseñar fotos del mismo disecado", correct: false },
             { letter: "J", text: "Pensar que la ex novia de su ligue era una mexicana asesina que iba a degollarla por la noche", correct: false },
@@ -408,7 +408,8 @@ if (!day) {
             { letter: "P", text: "Tener la valentía de jugar a voleibol con sus brazos hipótrofos", correct: false },
             { letter: "Q", text: "Comerse todo lo que había a su alcance y hacer a su madre ir a buscarla a las 5 de la mañana porque estaba vomitando más que la niña del exorcista", correct: false },
             { letter: "R", text: "Cuando se presentó a hacer la foto del catálogo del colegio (un momento muy serio) en chándal", correct: false },
-            { letter: "S", text: "Todas las anteriores y muchas más que aún no hemos descubierto", correct: true },
+            { letter: "S", text: "Intentar convencer a su madre de que ella no había bebido vodka negro, ella solamente había comido regaliz", correct: true },
+            { letter: "T", text: "Todas las anteriores y muchas más que aún no hemos descubierto", correct: true },
           ],
         },
       },
@@ -422,7 +423,7 @@ if (!day) {
         <br>Y así, <strong>hemos llegado al final</strong>. El fin de una era.
         <br><br>No vamos a ponernos demasiado dramáticas (o sí), pero esta despedida de soltera no ha sido solo un viaje, una fiesta o una excusa para verte haciendo el ridículo en nombre de la diversión. <strong>Ha sido un cierre de capítulo</strong>.
         <br><br>Nos conoces. Sabes que no somos de ponernos cursis (bueno, algunas más que otras), pero hoy todo vale. Porque después de tantos años, tantas historias, tantas versiones de ti misma que hemos visto evolucionar, llegamos a este momento: <strong>estás a punto de casarte</strong>.
-        <br><br>Nunca pensamos que llegaría este día. No porque no creyéramos en ti (bueno, un poco sí), sino porque nos parecía imposible imaginarte en un vestido blanco sin que algo absurdamente caótico sucediera a tu alrededor. Pero ahora, miramos atrás y nos damos cuenta de que, aunque muchas cosas han cambiado, lo importante sigue intacto.
+        <br><br>Nunca pensamos que llegaría este día. No porque no creyéramos en ti (bueno, un poco sí), sino porque nos parecía imposible imaginarte en un vestido blanco sin que algo absurdamente caótico sucediera a tu alrededor. Pero ahora, miramos atrás y nos damos cuenta de que, aunque muchas cosas han cambiado, <strong>lo importante sigue intacto</strong>.
         <br><br><img src="/images/london1.jpg" alt="Ejemplo de imagen">
         <br><br><img src="/images/cumple.jpg" alt="Ejemplo de imagen"> 
         <br><br><img src="/images/pacha.jpg" alt="Ejemplo de imagen"> 
@@ -447,7 +448,7 @@ if (!day) {
           Tu navegador no soporta el video.
         </video>
         <br>Así que aquí va <strong>nuestro último brindis: por lo que fuimos, por lo que somos y por lo que vendrá</strong>. Porque aunque <strong>ya nada volverá a ser como antes</strong>, sabemos que todavía quedan muchas Melinadas por escribir.
-        <br><br>Nosotras, desde luego, no nos lo vamos a perder. 💗
+        <br><br><em>NOSOTRAS, DESDE LUEGO, NO NOS LO VAMOS A PERDER.💗</em>
 `,
         text2: `
         <br>Hoy ya no nos hacen falta más pistas, porque esto se acaba aquí.
