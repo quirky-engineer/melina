@@ -66,7 +66,7 @@ if (!day) {
         <br><br>
         Te espera un <em>VIAJE</em>. Uno de esos que recordarás para siempre (y no solo porque tu dignidad va a quedar comprometida).
         Así que antes de que llegue el gran momento, queremos asegurarnos de que no te presentes con lo puesto y sin bragas.
-        Porque sí, te conocemos. Sabemos que eres capaz de aparecer con una maleta donde has metido tres pintalabios pero ni un solo calcetín. O que te acordarás del cargador pero no del DNI. Y eso, amiga, no puede pasar.
+        Porque sí, te conocemos. Sabemos que eres capaz de aparecer con una maleta donde has metido tres pintalabios pero ni un solo calcetín. O que te acordarás del cargador pero no del DNI. Y eso, no puede pasar.
         <br><br>
         Y hablando de conocernos, seguro que a estas alturas ya te estarás preguntando… <em>¿quién está detrás de todo este caos organizado?</em>
         <br>Vamos a darte una pista: nos conoces desde antes de que supieras maquillarte decentemente, hemos sobrevivido juntas a exámenes, crisis existenciales y alguna que otra metedura de pata histórica.
@@ -163,7 +163,7 @@ if (!day) {
         <br><br><img src="/images/martes11_1.jpg" alt="Ejemplo de imagen">     
         <br><br><img src="/images/martes11_2.jpg" alt="Ejemplo de imagen"> 
         <br>Pero la salud era secundaria; lo fundamental era recomponerse y asegurarse de que nada (ni siquiera una herida visible) arruinara la noche. Porque al final, lo único peor que caerse era perderse la mejor parte de la fiesta.
-        <br><br>Y esa, amiga, es la actitud que nos ha traído hasta aquí: reponerse, reírse y seguir bailando. Porque si hay algo que sabemos, es que todavía queda mucha fiesta por delante...
+        <br><br>Y esa es la actitud que nos ha traído hasta aquí: reponerse, reírse y seguir bailando. Porque si hay algo que sabemos, es que todavía queda mucha fiesta por delante...
         <br><br><img src="/images/martes11_3.jpg" alt="Ejemplo de imagen"> 
         <br><br><video
           controls
@@ -279,7 +279,7 @@ if (!day) {
         text: `
         <br>Si has llegado hasta aquí, significa que <strong>has sobrevivido</strong> a esta cuenta atrás llena de recuerdos, indirectas y alguna que otra vergüenza ajena.
         <br><br>Hemos vivido muchas noches épicas, pero ninguna empieza sin un buen brindis. Y si hay una bebida que ha sido testigo de nuestros mejores (y peores) momentos, esa es la <strong>sidra asturiana</strong>.
-        <br><br>Pero esta vez, amiga, el brindis es diferente.
+        <br><br>Pero esta vez, el brindis es diferente.
         <br>Esta vez, <strong>el brindis es por TI</strong>.
         <br><br>Dicen que la sidra ayuda a ver la vida con más claridad… pero en tu caso, ni con GPS. Si alguna vez hubo una brújula que apuntaba al caos, sin duda la llevas tú. Y es precisamente por eso que este fin de semana promete ser inolvidable.
         <br><br> A veces las premoniciones (o medias premoniciones) se hacen realidad, y sino mira esta carta que escribimos hace ya 12 años...
