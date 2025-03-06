@@ -215,7 +215,7 @@ if (!day) {
         text: `
         <br>Hay lugares que marcan una vida. <strong>Algunos nos enseñan a ser mejores personas…</strong> y otros nos enseñan que hasta las que parecen más santas tienen su lado fiestero. Y tú aprendiste ambas cosas.
         <br><br> Porque si algo ha quedado claro con los años es que la fe puede mover montañas… pero también puede mover a un grupo de amigas aburridas hacia situaciones que hoy <strong>nos hacen reír</strong> (y que en su momento nos hicieron sudar frío).
-        <br><br>Desde aquellas clases donde intentabas no reírte a carcajadas de la sopa primordial en plena reflexión espiritual, hasta los enamoramientos que desafiaban cualquier mandamiento… como <strong>aquel crush descomunal</strong> que tuviste con cierto profesora de nombre <em>of the church</em>.
+        <br><br>Desde aquellas clases donde intentabas no reírte a carcajadas de la sopa primordial en plena reflexión espiritual, hasta los enamoramientos que desafiaban cualquier mandamiento… como <strong>aquel crush descomunal</strong> que tuviste con cierto profesor de nombre <em>of the church</em>.
         <br><br>Tú no intentabas disimular y cada vez que entraba en clase, te ponías más atenta que en cualquier examen. Podía estar explicando lo más aburrido del mundo pero ahí estabas tú, con una concentración digna de alguien <strong>descubriendo el sentido de la vida en esos brazos que estallaban camisetas</strong>. Si los curas hablaban de vocación, la tuya claramente era asistir a sus clases.
         `,
         text2: `
@@ -273,22 +273,29 @@ if (!day) {
 
     // VIERNES 14
     "viernes-14": {
-        textTitle: "Título",
-        song: "",
-        audioFile: "padre.mp3",
+        textTitle: "La última sidra antes del gran día",
+        song: "Asturias - Melendi",
+        audioFile: "asturias.mp3",
         text: `
-        hello
+        <br>Si has llegado hasta aquí, significa que <strong>has sobrevivido</strong> a esta cuenta atrás llena de recuerdos, indirectas y alguna que otra vergüenza ajena.
+        <br><br>Hemos vivido muchas noches épicas, pero ninguna empieza sin un buen brindis. Y si hay una bebida que ha sido testigo de nuestros mejores (y peores) momentos, esa es la <strong>sidra asturiana</strong>.
+        <br><br>Pero esta vez, amiga, el brindis es diferente.
+        <br>Esta vez, <strong>el brindis es por TI</strong>.
+        <br><br>Dicen que la sidra ayuda a ver la vida con más claridad… pero en tu caso, ni con GPS. Si alguna vez hubo una brújula que apuntaba al caos, sin duda la llevas tú. Y es precisamente por eso que este fin de semana promete ser inolvidable.
+        <br><br> A veces las premoniciones (o medias premoniciones) se hacen realidad, y sino mira esta carta que escribimos hace ya 12 años...
+        <br><br><img src="/images/contrato.jpg" alt="Ejemplo de imagen"> 
+        <br><br> QUÉ MÁS PONER???????
         `,
         text2: `
-        Aquí tienes una pista visual.
+        🧠 Pista del día: No busques más, el secreto está en el escanciado. 🇪🇸🍏
         `,        
         question: {
-          text: "Si Melina tuviera que hacer la maleta bajo presión, ¿qué olvidaría con un 99% de probabilidad?",
+          text: "Si Melina fuera una sidra, ¿qué tipo sería?",
           options: [
-            { letter: "A", text: "...", correct: false },
-            { letter: "B", text: "....", correct: false },
-            { letter: "C", text: "....", correct: false },
-            { letter: "✅", text: "...", correct: true },
+            { letter: "A", text: "Una sidra natural: auténtica y con carácter, pero con riesgo de derrame si no se maneja bien", correct: false },
+            { letter: "B", text: "Una sidra espumosa: siempre lista para la fiesta, pero peligrosa en las aperturas", correct: false },
+            { letter: "C", text: "Una sidra dulce: la opción segura que no falla, pero que engaña con lo suave que entra", correct: false },
+            { letter: "✅", text: "Una sidra asturiana bien escanciada… aunque sabemos que acabaría más en el suelo que en el vaso", correct: true },
           ],
         },
       },
@@ -296,8 +303,8 @@ if (!day) {
     // SÁBADO 15
     "sábado-15": {
         textTitle: "Título",
-        song: "",
-        audioFile: "padre.mp3",
+        song: "Bailando por ahí - Juan Magán",
+        audioFile: "bailando.mp3",
         text: `
         hello
         `,
@@ -318,13 +325,21 @@ if (!day) {
     // DOMINGO 16
     "domingo-16": {
         textTitle: "Título",
-        song: "",
-        audioFile: "padre.mp3",
+        song: "Ya nada volverá a ser cómo antes - El Canta del Loco",
+        audioFile: "antes.mp3",
         text: `
         hello     
         `,
         text2: `
-        Aquí tienes una pista visual.
+       <br><br><video
+          controls
+          playsinline
+          muted
+          onfocus="this.blur();"
+        >
+          <source src="/videos/melina_novia.mp4" type="video/mp4">
+          Tu navegador no soporta el video.
+        </video>
         `,        
         question: {
           text: "Si Melina tuviera que hacer la maleta bajo presión, ¿qué olvidaría con un 99% de probabilidad?",
