@@ -244,26 +244,27 @@ if (!day) {
 
     // JUEVES 13
     "jueves-13": {
-        textTitle: "Título",
-        song: "Canción - Intérprete",
-        spotifyLink: "https://open.spotify.com/track/4z2EeFUp5Lhai9qhHtA6IF",
+        textTitle: "La fe mueve montañas... y despedidas",
+        song: "Padre Nuestro, en el mar he oido hoy - Grupo Nueva Vida",
+        audioFile: "padre.mp3",
         text: `
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
-
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
-
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.
+        <br>Hay lugares que marcan una vida. <strong>Algunos nos enseñan a ser mejores personas…</strong> y otros nos enseñan que hasta las que parecen más santas tienen su lado fiestero. Y tú aprendiste ambas cosas.
+        <br><br> Porque si algo ha quedado claro con los años es que la fe puede mover montañas… pero también puede mover a un grupo de amigas aburridas hacia situaciones que hoy <strong>nos hacen reír</strong> (y que en su momento nos hicieron sudar frío).
+        <br><br>Desde aquellas clases donde intentabas no reírte a carcajadas de la sopa primordial en plena reflexión espiritual, hasta los enamoramientos que desafiaban cualquier mandamiento… como <strong>aquel crush descomunal</strong> que tuviste con cierto profesora de nombre <em>of the church</em>.
+        <br><br>Tú no intentabas disimular y cada vez que entraba en clase, te ponías más atenta que en cualquier examen. Podía estar explicando lo más aburrido del mundo pero ahí estabas tú, con una concentración digna de alguien <strong>descubriendo el sentido de la vida en esos brazos que estallaban camisetas</strong>. Si los curas hablaban de vocación, la tuya claramente era asistir a sus clases.
         `,
         text2: `
-        Aquí tienes una pista visual.
+        <br>¿Quién crees que te ha hecho sufrir toda la semana?
+        <br><br><p><a href="/revelacion" class="reveal-link"><em><strong>Haz click AQUÍ para descubrirlo</strong></em></a></p>
+        <br>(Aunque confiamos en que ya lo sepas)
         `,        
         question: {
-          text: "Si Melina tuviera que hacer la maleta bajo presión, ¿qué olvidaría con un 99% de probabilidad?",
+          text: "Durante la ilustre educación de Melina en los Jesuitas, aprendió muchas cosas… pero ¿cuál de estas fue la lección más importante?",
           options: [
-            { letter: "A", text: "...", correct: false },
-            { letter: "B", text: "....", correct: false },
-            { letter: "C", text: "....", correct: false },
-            { letter: "✅", text: "...", correct: true },
+            { letter: "A", text: "Que el uniforme era más sagrado que la Biblia", correct: false },
+            { letter: "B", text: "Que rezar antes de un examen no garantiza el aprobado", correct: false },
+            { letter: "C", text: "Que debemos poner la mano en la mano de aquel que te da la mano", correct: true },
+            { letter: "D", text: "Que la verdadera penitencia era aguantar la misa entera sin dormirse", correct: false },
           ],
         },
       },
