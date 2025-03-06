@@ -100,7 +100,7 @@ if (!day) {
       <br><br>◾ DNI (¿y si te deportan?)
       <br>◾ Dinero (¿todo pagado?... no)
       <br>◾ Bikini (¿mar, piscina, fuente pública?)
-      <br>◾ Ropa cómoda (la razón es secreta)
+      <br>◾ Ropa cómoda y leggins (la razón es secreta)
       <br>◾ Zapatos cómodos (hay que madurar)
       <br>◾ Analgésicos (nos conocemos...)
       <br>◾ Cargador del móvil (aunque para lo que lo usas...)
