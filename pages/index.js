@@ -78,15 +78,14 @@ export default function Home() {
 
 
   useEffect(() => {
-    const eventDate = new Date("2025-03-14T13:00:00").getTime();
-    //const eventDate = new Date("2025-03-14T13:55:00").getTime();
+    const eventDate = new Date("2025-03-14T13:15:00").getTime();
 
     const updateCountdown = () => {
       const now = new Date().getTime();
       const diff = eventDate - now;
 
       if (diff <= 0) {
-        setTimeLeft({ message: "¡A DISFRUTAR!" });
+        setTimeLeft({ message: "¡EMPIEZA TU DESPEDIDA DE SOLTERA!" });
         return;
       }
 
@@ -117,6 +116,8 @@ export default function Home() {
     { day: "Domingo 16"}
   ];
 
+
+/*
   const openDayPage = (day) => {
     if (day === "Instrucciones") {
       router.push("/instructions"); // Redirect to the correct page
@@ -125,9 +126,7 @@ export default function Home() {
       router.push(`/day/${formattedDay}`);
     }
   };
-  
-
-/* 
+*/
 const openDayPage = (day) => {
   const now = new Date();
   const todayFormatted = now.toLocaleDateString("es-ES", { weekday: "long", day: "numeric" }).toLowerCase();
@@ -156,7 +155,8 @@ const openDayPage = (day) => {
   // 🔥 Allow navigation if past 14:00
   router.push(`/day/${formattedDay}`);
 };
-*/
+
+
   return (
 
     <div ref={vantaRef} className="h-screen w-full flex flex-col items-center justify-center text-white fixed top-0 left-0">
@@ -413,9 +413,7 @@ const openDayPage = (day) => {
           background-color: #e03c50;
         }
 
-        video {
-          pointer-events: none; /* Prevents interaction */
-        }
+
 
       `}</style>
     </div>

@@ -100,6 +100,7 @@ if (!day) {
       <br><br>◾ DNI (¿y si te deportan?)
       <br>◾ Dinero (¿todo pagado?... no)
       <br>◾ Bikini (¿mar, piscina, fuente pública?)
+      <br>◾ Abrigo (¿ambos bikini y abrigo? pues sí)
       <br>◾ Ropa cómoda y leggins (la razón es secreta)
       <br>◾ Zapatos cómodos (hay que madurar)
       <br>◾ Analgésicos (nos conocemos...)
@@ -273,69 +274,13 @@ if (!day) {
 
     // VIERNES 14
     "viernes-14": {
-        textTitle: "La última sidra antes del gran día",
-        song: "Asturias - Melendi",
-        audioFile: "asturias.mp3",
-        text: `
-        <br>Si has llegado hasta aquí, significa que <strong>has sobrevivido</strong> a esta cuenta atrás llena de recuerdos, indirectas y alguna que otra vergüenza ajena.
-        <br><br>Hemos vivido muchas noches épicas, pero ninguna empieza sin un buen brindis. Y si hay una bebida que ha sido testigo de nuestros mejores (y peores) momentos, esa es la <strong>sidra asturiana</strong>.
-        <br><br>Pero esta vez, el brindis es diferente.
-        <br>Esta vez, <strong>el brindis es por TI</strong>.
-        <br><br>Dicen que la sidra ayuda a ver la vida con más claridad… pero en tu caso, ni con GPS. Si alguna vez hubo una brújula que apuntaba al caos, sin duda la llevas tú. Y es precisamente por eso que este fin de semana promete ser inolvidable.
-        <br><br> A veces las premoniciones (o medias premoniciones) se hacen realidad, y sino mira esta carta que escribimos hace ya 12 años...
-        <br><br><img src="/images/contrato.jpg" alt="Ejemplo de imagen"> 
-        <br> Lo que todavía no entendemos es cómo ha pasado esto. Nosotras estuvimos allí, en Polonia, cuando soltaste la bomba.
-        <br><br>Nos miramos entre nosotras, levantamos una ceja y seguimos comiendo la cena, porque vamos a ser sinceras: <strong>NUNCA te hemos tomado en serio</strong>.
-        <br><br><img src="/images/polonia.jpg" alt="Ejemplo de imagen"> 
-        <br><br><video
-          controls
-          playsinline
-          muted
-          onfocus="this.blur();"
-        >
-          <source src="/videos/mecaso.mp4" type="video/mp4">
-          Tu navegador no soporta el video.
-        </video>
-        <br>Y, sin embargo, aquí estamos. <strong>Resulta que esta vez ibas en serio</strong>.
-        <br><br>Así que, después de años de teorías imposibles sobre tu futuro, nos toca tragarnos nuestras palabras y levantar la copa.
-        <br><br>Porque sí, lo hemos dudado, pero ahora no tenemos ninguna duda: <strong>estás a punto de vivir algo increíble</strong>.
-        `,
-        text2: `
-        <br>▪️Te espera una ciudad que huele a mar, a cachopo y a un final que aún no te imaginas.
-        <br><br>▪️ Algunas noches están hechas para salir, pero las mejores son aquellas donde simplemente te sientas, comes, brindas y disfrutas.
-        <br><br>▪️ Dicen que hay momentos en los que solo queda dejarse llevar por la corriente… o por alguien que conoce bien el camino. 
-        <br><br>▪️ La tierra siempre da lo mejor de sí… y hay lugares donde lo auténtico se saborea como nunca.
-        <br><br>▪️ Hay juegos donde se gana y otros donde simplemente te ríes hasta que duele la barriga. Prepárate para lo inesperado.
-        <br><br><video
-          controls
-          playsinline
-          muted
-          onfocus="this.blur();"
-        >
-          <source src="/videos/sidra.mp4" type="video/mp4">
-          Tu navegador no soporta el video.
-        </video>
-        `,        
-        question: {
-          text: "Si Melina fuera una sidra, ¿qué tipo sería?",
-          options: [
-            { letter: "A", text: "Una sidra natural: auténtica y con carácter, pero con riesgo de derrame si no se maneja bien", correct: false },
-            { letter: "B", text: "Una sidra espumosa: siempre lista para la fiesta, pero peligrosa en las aperturas", correct: false },
-            { letter: "C", text: "Una sidra dulce: la opción segura que no falla, pero que engaña con lo suave que entra", correct: false },
-            { letter: "D", text: "Una sidra asturiana bien escanciada… aunque sabemos que acabaría más en el suelo que en el vaso", correct: true },
-          ],
-        },
-      },
-
-    // SÁBADO 15
-    "sábado-15": {
         textTitle: "Melinadas",
         song: "Bailando por ahí - Juan Magán",
         audioFile: "bailando.mp3",
         text: `
-        <br>Para cuando leas esto, ya habrá empezado tu despedida.
+        <br>Para cuando leas esto, tu despedida estará a punto de empezar.
         <br>Por motivos logísticos (y kilométricos), nos ha sido imposible estar todas hoy aquí, pero te podemos asegurar que <strong>la ilusión con la que hemos preparado todo esto es totalmente compartida por todas</strong>.
-        <br><br>Y como sabemos que <strong>en ti la vergüenza ajena brilla por su ausencia</strong>, a lo largo del día tendrás que enfrentarte a diferentes situaciones (y más cosas) que reafirmen lo dicho anteriormente. 
+        <br><br>Y como sabemos que <strong>en ti la vergüenza ajena brilla por su ausencia</strong>, a lo largo de los próximos días, tendrás que enfrentarte a diferentes situaciones (y más cosas) que reafirmen lo dicho anteriormente. 
         <br><br>Hoy es el día perfecto para rendir homenaje a tus mejores (o peores) momentos: <strong>LAS MELINADAS</strong>.
         <br><br>Porque si algo ha quedado claro a lo largo de los años, es que <strong>nadie hace el ridículo con más estilo que tú</strong>. Nadie ha conseguido perderse con GPS tantas veces, ni ha protagonizado caídas tan cinematográficas, ni ha tenido más momentos de "bueno, en mi cabeza sonaba mejor".
         <br><br>Así que hoy, prepárate. Porque <strong>te toca revivir algunas de tus mayores hazañas</strong>.
@@ -386,8 +331,8 @@ if (!day) {
         </video>
         `,
         text2: `
-        <br>Queremos asegurarnos de que empieces tu gran día como te mereces.
-        <br><br>Mañana tendrás una última sorpresa.
+        <br><strong>A las 14:45 exactamente</strong>, te espera una GRAN SORPRESA en este mismo tren en el que te encuentras.
+        <br><br><strong>Dirígete al vagón XX, asiento XX.</strong>
         `,        
         question: {
           text: "¿Cuál de estas ha sido una de las Melinadas más icónicas de la historia?",
@@ -415,6 +360,62 @@ if (!day) {
           ],
         },
       },
+
+    // SÁBADO 15
+    "sábado-15": {
+      textTitle: "La última sidra antes del gran día",
+      song: "Asturias - Melendi",
+      audioFile: "asturias.mp3",
+      text: `
+      <br>Si has llegado hasta aquí, significa que <strong>has sobrevivido</strong> a esta cuenta atrás llena de recuerdos, indirectas y alguna que otra vergüenza ajena.
+      <br><br>Hemos vivido muchas noches épicas, pero ninguna empieza sin un buen brindis. Y si hay una bebida que ha sido testigo de nuestros mejores (y peores) momentos, esa es la <strong>sidra asturiana</strong>.
+      <br><br>Pero esta vez, el brindis es diferente.
+      <br>Esta vez, <strong>el brindis es por TI</strong>.
+      <br><br>Dicen que la sidra ayuda a ver la vida con más claridad… pero en tu caso, ni con GPS. Si alguna vez hubo una brújula que apuntaba al caos, sin duda la llevas tú. Y es precisamente por eso que este fin de semana promete ser inolvidable.
+      <br><br> A veces las premoniciones (o medias premoniciones) se hacen realidad, y sino mira qué carta que escribimos hace ya 12 años. <strong>Despedida de soltera en Gijón, vestida de monja... ¿te suena?</strong>
+      <br><br><img src="/images/contrato.jpg" alt="Ejemplo de imagen"> 
+      <br> Lo que todavía no entendemos es cómo ha pasado esto. Nosotras estuvimos allí, en Polonia, cuando soltaste la bomba.
+      <br><br>Nos miramos entre nosotras, levantamos una ceja y seguimos comiendo la cena, porque vamos a ser sinceras: <strong>NUNCA te hemos tomado en serio</strong>.
+      <br><br><img src="/images/polonia.jpg" alt="Ejemplo de imagen"> 
+      <br><br><video
+        controls
+        playsinline
+        muted
+        onfocus="this.blur();"
+      >
+        <source src="/videos/mecaso.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+      </video>
+      <br>Y, sin embargo, aquí estamos. <strong>Resulta que esta vez ibas en serio</strong>.
+      <br><br>Así que, después de años de teorías imposibles sobre tu futuro, nos toca tragarnos nuestras palabras y levantar la copa.
+      <br><br>Porque sí, lo hemos dudado, pero ahora no tenemos ninguna duda: <strong>estás a punto de vivir algo increíble</strong>.
+      `,
+      text2: `
+      <br>▪️ Estás en una ciudad que huele a mar, a cachopo y a un final que aún no te imaginas.
+      <br><br>▪️ Algunas noches están hechas para salir, pero las mejores son aquellas donde simplemente te sientas, comes, brindas y disfrutas.
+      <br><br>▪️ Dicen que hay momentos en los que solo queda dejarse llevar por la corriente… o por alguien que conoce bien el camino. 
+      <br><br>▪️ La tierra siempre da lo mejor de sí… y hay lugares donde lo auténtico se saborea como nunca.
+      <br><br>▪️ Hay juegos donde se gana y otros donde simplemente te ríes hasta que duele la barriga. Prepárate para lo inesperado.
+      <br><br><video
+        controls
+        playsinline
+        muted
+        onfocus="this.blur();"
+      >
+        <source src="/videos/sidra.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+      </video>
+      `,        
+      question: {
+        text: "Si Melina fuera una sidra, ¿qué tipo sería?",
+        options: [
+          { letter: "A", text: "Una sidra natural: auténtica y con carácter, pero con riesgo de derrame si no se maneja bien", correct: false },
+          { letter: "B", text: "Una sidra espumosa: siempre lista para la fiesta, pero peligrosa en las aperturas", correct: false },
+          { letter: "C", text: "Una sidra dulce: la opción segura que no falla, pero que engaña con lo suave que entra", correct: false },
+          { letter: "D", text: "Una sidra asturiana bien escanciada… aunque sabemos que acabaría más en el suelo que en el vaso", correct: true },
+        ],
+      },
+    },
 
     // DOMINGO 16
     "domingo-16": {
@@ -462,7 +463,7 @@ if (!day) {
         <br><br><em>NOSOTRAS, DESDE LUEGO, NO NOS LO VAMOS A PERDER.💗</em>
 `,
         text2: `
-        <br>Hoy ya no nos hacen falta más pistas, porque esto se acaba aquí.
+        <br> Hoy recibirás un último detalle pero ya no hacen falta más pistas, porque esto se acaba aquí.
         <br>Esta cuenta atrás ha sido <strong>un viaje lleno de recuerdos, risas y alguna lágrima</strong>.
         <br><br>Hoy no hay acertijos, no hay secretos por descubrir. <strong>Solo nos queda desearte lo mejor en esta nueva etapa con Héctor</strong>, porque si alguien merece una historia épica (con sus dosis de caos, por supuesto), esa eres tú.
         <br><br>Así que aquí termina el juego… pero <strong>lo bueno, lo de verdad, empieza ahora</strong>. 💗✨
