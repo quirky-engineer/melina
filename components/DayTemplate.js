@@ -119,9 +119,11 @@ export default function DayTemplate({ title, textTitle, song, audioFile, text, t
             {/* Pregunta del Día (Interactive) */}
             <div id="question-section" className="card">
   <h2 className="section-title">❓ Pregunta del día</h2>
-  <p className="question-text">{question.text}</p>
+  <p className="question-text">{question?.text || "No question available"}</p>
+
   <ul className="question-options">
-    {question.options.map((option, index) => (
+  {question?.options?.length > 0 ? (
+    question.options.map((option, index) => (
       <li
         key={index}
         className={`option ${selectedOption === option ? (option.correct ? "correct" : "incorrect") : ""}`}
@@ -129,8 +131,13 @@ export default function DayTemplate({ title, textTitle, song, audioFile, text, t
       >
         <strong>{option.letter}</strong> {option.text}
       </li>
-    ))}
-  </ul>
+    ))
+  ) : (
+    <p>No options available.</p> // Prevents the crash if no options exist
+  )}
+</ul>
+
+
 </div>
 
             

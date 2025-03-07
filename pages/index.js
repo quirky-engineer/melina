@@ -117,8 +117,12 @@ export default function Home() {
   ];
 
 
-/*
+
   const openDayPage = (day) => {
+    if (!day) {
+      console.error("Invalid day detected:", day);
+      return;
+    }
     if (day === "Instrucciones") {
       router.push("/instructions"); // Redirect to the correct page
     } else {
@@ -126,7 +130,8 @@ export default function Home() {
       router.push(`/day/${formattedDay}`);
     }
   };
-*/
+
+/*
 const openDayPage = (day) => {
   const now = new Date();
   const todayFormatted = now.toLocaleDateString("es-ES", { weekday: "long", day: "numeric" }).toLowerCase();
@@ -155,7 +160,7 @@ const openDayPage = (day) => {
   // 🔥 Allow navigation if past 14:00
   router.push(`/day/${formattedDay}`);
 };
-
+*/
 
   return (
 
