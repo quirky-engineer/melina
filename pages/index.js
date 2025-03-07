@@ -133,9 +133,14 @@ export default function Home() {
 */
 
 const openDayPage = (day) => {
+  if (day.toLowerCase() === "instrucciones") {
+    router.push("/instructions"); // ✅ Redirect to the correct page
+    return;
+  }
+
   const now = new Date();
   const todayFormatted = now.toLocaleDateString("es-ES", { weekday: "long", day: "numeric" }).toLowerCase();
-  const formattedDay = day.toLowerCase();
+  const formattedDay = day.toLowerCase().replace(/\s+/g, "-"); // "Sábado 8" → "sabado-8"
 
   // 🔥 Set the unlock time (14:00)
   const unlockTime = new Date();
@@ -157,7 +162,7 @@ const openDayPage = (day) => {
     return;
   }
 
-  // 🔥 Allow navigation if past 14:00
+  // ✅ Redirect to the correct day
   router.push(`/day/${formattedDay}`);
 };
 

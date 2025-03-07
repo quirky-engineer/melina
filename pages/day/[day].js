@@ -14,6 +14,9 @@ if (!day) {
   // ✅ All content is defined here
   const content = {
 
+    // DO NOT CALL INSTRUCTIONS
+    "instrucciones": null,
+
     // SÁBADO 8
     "sábado-8": {
         textTitle: "Cuenta atrás activada...",
@@ -496,6 +499,6 @@ if (!day) {
     title: "Día no encontrado",
     text: "Este día aún no tiene contenido. ¡Vuelve pronto!",
   };
-
+  
   return <DayTemplate {...dayContent} />;
 }
