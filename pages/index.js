@@ -162,7 +162,7 @@ const openDayPage = (day) => {
 
   // 🔥 Parse the event date correctly
   const eventDate = new Date(2025, 2, parseInt(day.split(" ")[1])); // March is month index 2
-  eventDate.setHours(11, 23, 0, 0); // ✅ Set time to 14:00
+  eventDate.setHours(14, 0, 0, 0); // ✅ Set time to 14:00
   const eventDayOfWeek = eventDate.toLocaleDateString("es-ES", { weekday: "long" });
 
   console.log("📌 Event Date:", eventDate.toLocaleString("es-ES"));
