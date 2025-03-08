@@ -133,37 +133,53 @@ export default function Home() {
 */
 
 const openDayPage = (day) => {
+
   if (day.toLowerCase() === "instrucciones") {
+    console.log("📌 Redirecting to /instructions...");
     router.push("/instructions"); // ✅ Redirect to the correct page
     return;
   }
 
   const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate()); // Only the date part
   const todayFormatted = now.toLocaleDateString("es-ES", { weekday: "long", day: "numeric" }).toLowerCase();
   const formattedDay = day.toLowerCase().replace(/\s+/g, "-"); // "Sábado 8" → "sabado-8"
 
   // 🔥 Set the unlock time (14:00)
-  const unlockTime = new Date();
+  const unlockTime = new Date(today);
   unlockTime.setHours(14, 0, 0, 0);
 
+  console.log("📌 Unlock Time (Target):", unlockTime.toLocaleString("es-ES"));
+  console.log("📌 Current Time (Now):", now.toLocaleString("es-ES"));
+  console.log("📌 Condition Check: now < unlockTime ?", now < unlockTime);
+ 
   // 🔥 Check if today is before the required unlock time
   if (formattedDay === todayFormatted && now < unlockTime) {
+    console.log("🚫 Access blocked! Showing modal.");
     setModalContent("Desbloqueo a las 14:00.");
     return;
   }
 
   // 🔥 Parse the event date correctly
   const eventDate = new Date(2025, 2, parseInt(day.split(" ")[1])); // March is month index 2
+  eventDate.setHours(11, 23, 0, 0); // ✅ Set time to 14:00
   const eventDayOfWeek = eventDate.toLocaleDateString("es-ES", { weekday: "long" });
+
+  console.log("📌 Event Date:", eventDate.toLocaleString("es-ES"));
+  console.log("📌 Current Date:", now.toLocaleString("es-ES"));
+  console.log("📌 Condition Check: now < eventDate ?", now < eventDate);
 
   // 🔥 Check if the day is in the future
   if (now < eventDate) {
+    console.log("🚫 Future date! Showing modal.");
     setModalContent(`Ups... contenido bloqueado. ¡Vuelve el ${eventDayOfWeek} a las 14:00!`);
     return;
   }
 
   // ✅ Redirect to the correct day
+  console.log("✅ Redirecting to:", `/day/${formattedDay}`);
   router.push(`/day/${formattedDay}`);
+  
 };
 
 
